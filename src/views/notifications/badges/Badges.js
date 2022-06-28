@@ -74,7 +74,9 @@ const Badges = () => {
               a badge.
             </p>
             <DocsExample href="components/badge#contextual-variations">
-              <CBadge color="primary">primary</CBadge>
+              <CBadge color="primary" textColor="high-emphasis">
+                primary
+              </CBadge>
               <CBadge color="success">success</CBadge>
               <CBadge color="danger">danger</CBadge>
               <CBadge color="warning">warning</CBadge>

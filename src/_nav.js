@@ -253,6 +253,28 @@ const _nav = [
     ],
   },
   {
+    component: CNavGroup,
+    name: 'Tables',
+    icon: <CIcon icon={cilBell} customClassName="nav-icon" />,
+    items: [
+      {
+        component: CNavItem,
+        name: 'Items',
+        to: '/tables/Items',
+      },
+      {
+        component: CNavItem,
+        name: 'Orders',
+        to: '/tables/Orders',
+      },
+      {
+        component: CNavItem,
+        name: 'Customers',
+        to: '/tables/customers',
+      },
+    ],
+  },
+  {
     component: CNavItem,
     name: 'Widgets',
     to: '/widgets',
